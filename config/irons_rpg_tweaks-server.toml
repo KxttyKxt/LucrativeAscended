@@ -83,3 +83,15 @@
 	lingeringPotionCooldown = 1.5
 	#Multiplier to the time taken to drink potions. Default: 0.8
 	potionDrinkTimeMultiplier = 0.8
+	#Item Cooldown in seconds for drinking a potion. Default: 0.0
+	drinkPotionCooldown = 0.0
+	#Item Cooldown in seconds for eating a food item. Default: 0.0
+	eatFoodCooldown = 0.0
+	#Limit on stack size of foods with 5 hunger or more. Set to -1 to leave unchanged. Default: -1
+	foodStackSize = -1
+	#Limit on stack size of all potion types. Set to -1 to leave unchanged. Default: 4
+	potionStackSize = 4
+
+[Sleep-Module]
+	#The sleep module addresses imbalance caused by the ease of skipping nights via sleeping. Disabling will nullify every feature listed under this module.
+	sleepModuleEnabled = true

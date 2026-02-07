@@ -1,4 +1,5 @@
 {
+  "balm:jade": null,
   "corpse:corpse": null,
   "jade:block_face": null,
   "jade:block_properties": null,
@@ -15,6 +16,8 @@
   "jade_access:entity_variant": null,
   "jade_access:held_item": null,
   "jade_access:sign": null,
+  "jadeaddons.lootr:info": null,
+  "jadeaddons.lootr:inventory": null,
   "lootr:info": null,
   "lootr:inventory": null,
   "minecraft:animal_owner": null,

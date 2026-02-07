@@ -1,10 +1,6 @@
 [general]
 	#Sort recipes following cretive tab order. Could cause issue in the case when, for whatever reason, creative other would differ from server to client.Additionally Neoforge has a bug where this stuff won't work on servers. Use Forge instead!
 	sort_recipes = true
-	#Save sawmill recipes to disk. Enable this if you are the author of a modpack and want to disable dynamic recipe generation. To do so just turn of that config, turn this one on and after booting up the game just copy the generated recipes in the generated folder in your own datapack, then turn off this config
-	save_recipes = false
-	#Generates Sawmill recipes dynamically. Remove this if you plan to add all of them manually instead. Can speed up boot time slightly
-	dynamic_recipes = true
 	#Allow crafting non-block items
 	allow_non_blocks = true
 	#Allows crafting non wood variant items (crafting table for example)
@@ -28,6 +24,14 @@
 	max_discount = 0.35
 	#Enables and disables compat structures for Repurposed Structures mod
 	repurposed_structures_compat = true
+	#
+	#How dynamic assets are generated. If cached the cache will regenerate once any mod or pack changes
+	#- NEVER: This mod will never attempt to generate the cache folder. The assets will be put in memory
+	#- CACHED: create a CACHE folder via .minecraft/dynamic-resource-pack-cache
+	#- CACHED_ZIPPED: create a ZIP folder via .minecraft/dynamic-resource-pack-cache
+	#- ALWAYS: Will always generate the assets & will be stored in memory. There will be no cache folder
+	#Allowed Values: NEVER, CACHED, CACHED_ZIPPED, ALWAYS
+	recipe_generation_mode = "CACHED"
 
 	#This is a map of wood object type to its cost in planks. Its used to add some discount to some special blocks.Change this if say you want all fences to cost 1 plank. Not all keys will work here bt you can try modded ones if you hae Every Compat
 	[general.special_recipe_costs]
