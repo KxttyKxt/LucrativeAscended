@@ -62,6 +62,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "reliquary": {
     "pedestal": true,
     "altar": true,
@@ -82,10 +85,10 @@
   "waystones": {
     "waystone": true
   },
-  "lootr": {
-    "info": true
-  },
   "corpse": {
     "corpse": true
+  },
+  "balm": {
+    "jade": true
   }
 }

@@ -81,6 +81,13 @@
 		"minecraft:iron_golem": "NEUTRAL",
 		"guardvillagers:guard": "NEUTRAL"
 	},
+	"player_relation_tags": {
+		"minecraft:undead": "HOSTILE"
+	},
+	// Relation to self, and self owned pets (tamed entities), changing this to `FRIENDLY` will make it impossible to hit pets with weapons
+	"player_relation_to_self_and_pets": "NEUTRAL",
+	// Relation to teammates (entities in the same team), changing this to `FRIENDLY` will automatically disable friendly fire for all teams
+	"player_relation_to_teammates": "NEUTRAL",
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
 	"player_relation_to_passives": "HOSTILE",
 	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
