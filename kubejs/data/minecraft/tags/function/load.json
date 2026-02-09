@@ -1,6 +1,4 @@
 {
-    "replace": false,
-    "values": [
-        "kubejs:core/load"
-    ]
+	"replace": false,
+	"values": ["kubejs:core/load"]
 }

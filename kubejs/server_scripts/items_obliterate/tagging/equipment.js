@@ -5,7 +5,6 @@ ServerEvents.tags('item', event => {
     event.add('c:equipment', '#c:armors')
     event.add('c:equipment', '#c:tools')
     event.add('c:tools', '#forge:shuriken')
-    
 
     // Copper, Emerald, Amethyst Equipment
     const equipment = event.get('c:equipment').getObjectIds()

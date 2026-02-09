@@ -26,6 +26,5 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:gun_related', 'reliquary:bullets/sand_bullet')
     event.add('kubejs:gun_related', 'reliquary:bullets/storm_bullet')
 
-
     event.add('kubejs:obliterated', '#kubejs:gun_related')
 })
