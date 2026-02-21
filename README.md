@@ -2,7 +2,7 @@
 
 <sup><em>When I began working on the first Lucrative, I had a specific image in mind. I would say that it achieved this image, but it was poorly strung and polished only to a fault. Now, Lucrative is soaring to new heights in 1.21!</em></sup>
 
-***
+---
 
 ### Up your arsenal 🔥
 
@@ -33,6 +33,6 @@
 
 #### <sup><em>And a whole lot more to come!</em></sup>
 
-***
+---
 
 <sup><em>All assets are the property of their original owners. Any assets that do belong to me are explicitly declared so. This includes: the Lucrative Ascended logo. If you want your content removed or accredited, please let me know. All Rights Reserved.</em></sup>

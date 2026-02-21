@@ -1,24 +1,20 @@
 {
-  "type": "metalbundles:copy_components_shaped_recipe",
-  "category": "equipment",
-  "copy_from": {
-    "item": "metalbundles:copper_bundle"
-  },
-  "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "X": {
-      "item": "metalbundles:copper_bundle"
-    }
-  },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "result": {
-    "count": 1,
-    "id": "metalbundles:iron_bundle"
-  }
+	"type": "metalbundles:copy_components_shaped_recipe",
+	"category": "equipment",
+	"copy_from": {
+		"item": "metalbundles:copper_bundle"
+	},
+	"key": {
+		"#": {
+			"item": "minecraft:iron_ingot"
+		},
+		"X": {
+			"item": "metalbundles:copper_bundle"
+		}
+	},
+	"pattern": ["###", "#X#", "###"],
+	"result": {
+		"count": 1,
+		"id": "metalbundles:iron_bundle"
+	}
 }

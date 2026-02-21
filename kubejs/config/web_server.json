@@ -1,6 +1,6 @@
 {
-  "enabled": true,
-  "port": 61423,
-  "public_address": "",
-  "auth": "bNh55roGJLVo5h5eFIGk_RRK6ag9ARlXCnBbYpl-1T5C"
+	"enabled": true,
+	"port": 61423,
+	"public_address": "",
+	"auth": "bNh55roGJLVo5h5eFIGk_RRK6ag9ARlXCnBbYpl-1T5C"
 }

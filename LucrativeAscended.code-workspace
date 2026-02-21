@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+		{
+			"path": "config",
+		},
+		{
+			"path": "kubejs",
+		},
+	],
+}
