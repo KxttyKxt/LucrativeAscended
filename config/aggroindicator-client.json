@@ -11,5 +11,6 @@
   "yOffset": 10.0,
   "alertIconSize": 30.0,
   "alertColorHex": "0xFF6666",
-  "hideAlertAfterTicks": 0
+  "hideAlertAfterTicks": 0,
+  "playAlertSound": false
 }
